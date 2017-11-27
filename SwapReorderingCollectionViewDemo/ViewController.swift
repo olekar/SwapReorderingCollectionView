@@ -80,18 +80,13 @@ extension ViewController: UICollectionViewDataSource {
 extension ViewController: UIGestureRecognizerDelegate {
     
     func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
-        guard let longPress = gestureRecognizer as? UILongPressGestureRecognizer else {
-            return true
+        if let longPress = gestureRecognizer as? UILongPressGestureRecognizer {
+            let location = longPress.location(in: collectionView)
+            
+            return (collectionView.indexPathForItem(at: location) != nil)
         }
         
-        let location = longPress.location(in: collectionView)
-        
-        if let indexPath = collectionView.indexPathForItem(at: location),
-            let cell = collectionView.cellForItem(at: indexPath) {
-            return cell.contentView.subviews.first is UILabel
-        }
-        
-        return false
+        return true
     }
     
     @IBAction func onLongPress(_ sender: UILongPressGestureRecognizer) {
