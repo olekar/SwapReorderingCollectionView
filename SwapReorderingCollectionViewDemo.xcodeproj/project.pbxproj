@@ -14,6 +14,7 @@
 		FA7973E71FCC991A0037EA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7973E51FCC991A0037EA61 /* LaunchScreen.storyboard */; };
 		FA7973F21FCC991B0037EA61 /* SwapReorderingCollectionViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7973F11FCC991B0037EA61 /* SwapReorderingCollectionViewDemoTests.swift */; };
 		FA7973FD1FCC991B0037EA61 /* SwapReorderingCollectionViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7973FC1FCC991B0037EA61 /* SwapReorderingCollectionViewDemoUITests.swift */; };
+		FA79740B1FCC99810037EA61 /* SwapReorderingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79740A1FCC99810037EA61 /* SwapReorderingCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA7973F81FCC991B0037EA61 /* SwapReorderingCollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapReorderingCollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7973FC1FCC991B0037EA61 /* SwapReorderingCollectionViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapReorderingCollectionViewDemoUITests.swift; sourceTree = "<group>"; };
 		FA7973FE1FCC991B0037EA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA79740A1FCC99810037EA61 /* SwapReorderingCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapReorderingCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		FA7973DB1FCC991A0037EA61 /* SwapReorderingCollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA79740A1FCC99810037EA61 /* SwapReorderingCollectionView.swift */,
 				FA7973DC1FCC991A0037EA61 /* AppDelegate.swift */,
 				FA7973DE1FCC991A0037EA61 /* ViewController.swift */,
 				FA7973E01FCC991A0037EA61 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7973DF1FCC991A0037EA61 /* ViewController.swift in Sources */,
+				FA79740B1FCC99810037EA61 /* SwapReorderingCollectionView.swift in Sources */,
 				FA7973DD1FCC991A0037EA61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
