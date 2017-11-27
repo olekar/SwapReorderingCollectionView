@@ -95,31 +95,29 @@ extension ViewController: UIGestureRecognizerDelegate {
     }
     
     @IBAction func onLongPress(_ sender: UILongPressGestureRecognizer) {
-        if #available(iOS 9.0, *) {
-            let location = sender.location(in: collectionView)
-            
-            switch(sender.state) {
-            case .began:
-                guard let indexPath = collectionView.indexPathForItem(at: location) else {
-                    break
-                }
-                
-                let res = collectionView.beginInteractiveMovementForItem(at: indexPath)
-                
-                print("Dragging for item at index \(indexPath) has started - \(res)")
-                
-            case .changed:
-                collectionView.updateInteractiveMovementTargetPosition(location)
-                
-            case .ended:
-                collectionView.updateInteractiveMovementTargetPosition(location)
-                collectionView.endInteractiveMovement()
-                
-                print(dataArray)
-                
-            default:
-                collectionView.cancelInteractiveMovement()
+        let location = sender.location(in: collectionView)
+        
+        switch(sender.state) {
+        case .began:
+            guard let indexPath = collectionView.indexPathForItem(at: location) else {
+                break
             }
+            
+            let res = collectionView.beginInteractiveMovementForItem(at: indexPath)
+            
+            print("Dragging for item at index \(indexPath) has started - \(res)")
+            
+        case .changed:
+            collectionView.updateInteractiveMovementTargetPosition(location)
+            
+        case .ended:
+            collectionView.updateInteractiveMovementTargetPosition(location)
+            collectionView.endInteractiveMovement()
+            
+            print(dataArray)
+            
+        default:
+            collectionView.cancelInteractiveMovement()
         }
     }
     

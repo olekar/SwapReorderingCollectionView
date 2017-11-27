@@ -417,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwapReorderingCollectionViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwapReorderingCollectionViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwapReorderingCollectionViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwapReorderingCollectionViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +511,7 @@
 				FA7974031FCC991B0037EA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA7974041FCC991B0037EA61 /* Build configuration list for PBXNativeTarget "SwapReorderingCollectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +520,7 @@
 				FA7974061FCC991B0037EA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA7974071FCC991B0037EA61 /* Build configuration list for PBXNativeTarget "SwapReorderingCollectionViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +529,7 @@
 				FA7974091FCC991B0037EA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
