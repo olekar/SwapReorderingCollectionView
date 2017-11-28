@@ -39,7 +39,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="76Z-If-Hy7">
-                                                    <rect key="frame" x="8" y="8" width="34" height="34"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -48,10 +48,10 @@
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="trailingMargin" secondItem="76Z-If-Hy7" secondAttribute="trailing" id="AUa-2T-AN6"/>
-                                            <constraint firstItem="76Z-If-Hy7" firstAttribute="leading" secondItem="eGC-7C-bAa" secondAttribute="leadingMargin" id="FMe-aK-Q28"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="76Z-If-Hy7" secondAttribute="bottom" id="QSh-Ig-cMg"/>
-                                            <constraint firstItem="76Z-If-Hy7" firstAttribute="top" secondItem="eGC-7C-bAa" secondAttribute="topMargin" id="W2i-og-sYA"/>
+                                            <constraint firstAttribute="trailing" secondItem="76Z-If-Hy7" secondAttribute="trailing" id="AUa-2T-AN6"/>
+                                            <constraint firstItem="76Z-If-Hy7" firstAttribute="leading" secondItem="eGC-7C-bAa" secondAttribute="leading" id="FMe-aK-Q28"/>
+                                            <constraint firstAttribute="bottom" secondItem="76Z-If-Hy7" secondAttribute="bottom" id="QSh-Ig-cMg"/>
+                                            <constraint firstItem="76Z-If-Hy7" firstAttribute="top" secondItem="eGC-7C-bAa" secondAttribute="top" id="W2i-og-sYA"/>
                                         </constraints>
                                     </collectionViewCell>
                                 </cells>

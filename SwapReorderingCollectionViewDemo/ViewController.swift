@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-//        setupCollectionView()
+        setupCollectionView()
     }
     
     fileprivate func setupCollectionView() {
